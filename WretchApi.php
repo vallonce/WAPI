@@ -5,7 +5,7 @@ require_once dirname(__FILE__).'/yosdk/lib/Yahoo.inc';
 require_once dirname(__FILE__).'/inc/api_key.php';
 
 $wa = new WretchAPI();
-
+echo '科科';
 echo '<XMP>';
 
 $arr = $wa->siteDiguAnnounces();
